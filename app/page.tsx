@@ -20,7 +20,7 @@ export default function Home() {
           <a href="#about">About</a>
           <a href="#introduction">Introduction</a>
           <a href="/square">Square</a>
-          <a href="#yeonhee-art">YeonheeArt</a>
+          <a href="/yeonhee-art">YeonheeArt</a>
         </nav>
         <div className="header-icons" aria-label="Contact links">
           <Image src="/icons/contact.svg" alt="" width={24} height={20} priority />
