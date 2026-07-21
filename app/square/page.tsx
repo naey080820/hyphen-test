@@ -15,7 +15,9 @@ export default function SquarePage() {
   return (
     <main className="square-page">
       <header className="square-header">
-        <Link href="/" aria-label="Back to Naey home">Naey</Link>
+        <Link className="square-home-link" href="/" aria-label="Back to main page">
+          <span aria-hidden="true">⌂</span>
+        </Link>
         <span>Square</span>
         <span>Project 2</span>
       </header>

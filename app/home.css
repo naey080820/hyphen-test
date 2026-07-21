@@ -10,6 +10,55 @@
   position: relative;
 }
 
+.figma-home-header {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(84 / 2082 * 100%);
+  min-height: 84px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 30px 98px;
+  background: #fff;
+  color: #000;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.figma-home-logo,
+.figma-home-nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.figma-home-logo {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.figma-home-nav {
+  display: flex;
+  align-items: center;
+  gap: 77px;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.figma-home-icons {
+  width: 102px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.figma-home-icons img {
+  display: block;
+}
+
 .figma-home-design {
   width: 100%;
   height: auto;
@@ -51,4 +100,24 @@
   top: calc(1156 / 2082 * 100%);
   width: calc(579 / 1440 * 100%);
   height: calc(419 / 2082 * 100%);
+}
+
+@media (max-width: 900px) {
+  .figma-home-header {
+    min-height: 64px;
+    padding: 22px 28px;
+  }
+
+  .figma-home-logo {
+    font-size: 24px;
+  }
+
+  .figma-home-nav {
+    gap: 24px;
+    font-size: 16px;
+  }
+
+  .figma-home-icons {
+    display: none;
+  }
 }

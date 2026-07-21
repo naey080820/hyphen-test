@@ -4,9 +4,41 @@
   background: #000;
 }
 
-.yeonhee-art-design {
+.yeonhee-art-canvas {
   width: min(100%, 1441px);
+  margin: 0 auto;
+  position: relative;
+}
+
+.yeonhee-art-design {
+  width: 100%;
   height: auto;
   display: block;
-  margin: 0 auto;
+}
+
+.yeonhee-home-link {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: calc(64 / 1441 * 100%);
+  height: calc(54 / 10830 * 100%);
+  min-width: 44px;
+  min-height: 44px;
+  color: transparent;
+  text-decoration: none;
+}
+
+.yeonhee-home-link span {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.yeonhee-home-link:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 4px;
 }

@@ -20,6 +20,19 @@
   font-weight: 700;
 }
 
+.square-home-link {
+  width: 32px;
+  height: 32px;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, .7);
+  border-radius: 999px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1;
+}
+
 .square-header span:last-child {
   justify-self: end;
 }
