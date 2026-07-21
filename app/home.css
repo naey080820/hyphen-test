@@ -1,0 +1,54 @@
+.figma-home-page {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: #fff;
+}
+
+.figma-home-canvas {
+  width: min(100%, 1440px);
+  margin: 0 auto;
+  position: relative;
+}
+
+.figma-home-design {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.figma-home-hotspot {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  border-radius: 2px;
+  color: transparent;
+  text-decoration: none;
+}
+
+.figma-home-hotspot span {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.figma-home-hotspot:focus-visible {
+  outline: 3px solid #1200ff;
+  outline-offset: 6px;
+}
+
+.figma-home-square {
+  left: calc(120 / 1440 * 100%);
+  top: calc(1156 / 2082 * 100%);
+  width: calc(594 / 1440 * 100%);
+  height: calc(419 / 2082 * 100%);
+}
+
+.figma-home-yeonhee {
+  left: calc(737 / 1440 * 100%);
+  top: calc(1156 / 2082 * 100%);
+  width: calc(579 / 1440 * 100%);
+  height: calc(419 / 2082 * 100%);
+}
